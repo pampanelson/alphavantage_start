@@ -1,14 +1,19 @@
 {
-    "env": {
+    "env":
+    {
         "es6": true,
         "node": true
     },
     "extends": "eslint:recommended",
-    "parserOptions": {
+    "parserOptions":
+    {
         "ecmaVersion": 2018,
         "sourceType": "module"
     },
-    "rules": {
+    "rules":
+    {
+        "no-console": "off",
+
         "indent": [
             "error",
             "tab"
